@@ -100,6 +100,7 @@ body {
     flex-wrap: wrap;
     justify-content: space-around;
     justify-content: center;
+    
 }
 
 .contact-info__row{
@@ -169,7 +170,6 @@ body {
     border-radius: 10px;
 }
 
-
 .intro__icon-wrapper {
     margin-right: 30px;
     width: 30px;
@@ -187,7 +187,7 @@ body {
 }
 
 .intro_text {
-    color: var(--secondary-text-color);
+    color: var(--secondary-light-text-color);
     text-align: justify;
 }
 
@@ -328,5 +328,8 @@ body {
         text-align: center;
     }   
 
-    
+    .intro {
+        padding: 5px;
+        max-width: 100%;
+    }
 }
