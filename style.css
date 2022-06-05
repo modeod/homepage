@@ -21,11 +21,11 @@ body {
     --text-decoration-color: #ff9a00;
 }
 
-.container {
+.container:not(:first-child) {
     margin: 0 auto;
     padding: 0 30px;
     max-width: 900px;
-    border-bottom: 3px solid var(--border-color);
+    border-top: 3px solid var(--border-color);
 }
 
 .fh {
