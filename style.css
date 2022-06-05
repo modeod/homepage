@@ -56,6 +56,7 @@ body {
 
 .container.background__avatar {
     background: rgba(0, 0, 0, 0.1) url(img/background.jpg);
+    border-radius: 5px;
     background-blend-mode: darken;
     background-repeat: no-repeat;
     background-position: center center;
@@ -101,7 +102,6 @@ body {
     flex-direction: column;
     justify-content: space-around;
     justify-content: center;
-
 }
 
 .contact-info__block--center {
@@ -150,6 +150,12 @@ body {
 .intro {
     display: flex;
     justify-content: start;
+    margin-top: 30px;
+    max-width: 55%;
+    padding: 10px;
+    word-wrap:break-word;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
 }
 
 .intro__icon-wrapper {
@@ -169,7 +175,7 @@ body {
 }
 
 .intro_text {
-    color: var(--secondary-text-color);
+    color: var(--secondary-light-text-color);
     text-align: justify;
 }
 
@@ -306,5 +312,8 @@ body {
         text-align: center;
     }   
 
-    
+    .intro {
+        padding: 5px;
+        max-width: 100%;
+    }
 }
