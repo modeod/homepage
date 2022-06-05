@@ -55,7 +55,8 @@ body {
 }
 
 .container.background__avatar {
-    background-image: url(img/background.jpg);
+    background: rgba(0, 0, 0, 0.1) url(img/background.jpg);
+    background-blend-mode: darken;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
