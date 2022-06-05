@@ -56,7 +56,7 @@ body {
 }
 
 .container.background__avatar {
-    background: rgba(0, 0, 0, 0.1) url(img/background.jpg);
+    background: rgba(0, 0, 0, 0.2) url(img/background.jpg);
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     background-blend-mode: darken;
@@ -76,11 +76,6 @@ body {
 
 
 /* Contact info styles */
-
-.contact-info__header,
-.contact-info__sub-header {
-    text-shadow: 1px 1px 1px var(--shadow-color);
-}
 
 .contact-info__header {
     color: var(--primary-light-text-color);
@@ -165,7 +160,7 @@ body {
     max-width: 55%;
     padding: 10px;
     word-wrap:break-word;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.4);
     border-radius: 10px;
 }
 
