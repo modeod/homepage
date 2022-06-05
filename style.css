@@ -21,11 +21,11 @@ body {
     --text-decoration-color: #ff9a00;
 }
 
-.container {
+.container:not(:first-child) {
     margin: 0 auto;
     padding: 0 30px;
     max-width: 900px;
-    border-bottom: 3px solid var(--border-color);
+    border-top: 3px solid var(--border-color);
 }
 
 .fh {
@@ -43,6 +43,7 @@ body {
 .resume {
     margin: 50px auto;
     border: 1px solid #f5f5f5;
+    border-radius: 5px;
     box-shadow: 1px 1px 7px 7px #f5f5f5;
     padding: 0px 0px 30px 0px;
     max-width: 900px;
@@ -56,7 +57,8 @@ body {
 
 .container.background__avatar {
     background: rgba(0, 0, 0, 0.1) url(img/background.jpg);
-    border-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
     background-blend-mode: darken;
     background-repeat: no-repeat;
     background-position: center center;
