@@ -305,8 +305,12 @@ body {
         align-items: center;
     }
 
+    .contact-info__item {
+        justify-content: center;
+    }
+
     .contact-info__block:not(:last-child) {
-        margin-bottom: 20px;
+        margin-bottom: 10px;
     }
 
     .experiences {
